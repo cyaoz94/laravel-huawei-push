@@ -6,7 +6,7 @@
  * Time: 11:46
  */
 
-namespace Alone\LaravelHuaweiPush\Huawei;
+namespace Cyaoz94\LaravelHuaweiPush\Huawei;
 
 
 class Constants

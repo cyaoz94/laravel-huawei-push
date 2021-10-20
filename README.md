@@ -24,7 +24,7 @@ $ composer require "al-one/laravel-huawei-push" -vvv
 return [
 
     'providers' => [
-        Alone\LaravelHuaweiPush\ServiceProvider::class,
+        Cyaoz94\LaravelHuaweiPush\ServiceProvider::class,
     ],
 
 ];
@@ -84,8 +84,8 @@ class User extends Model
 ```php
 <?php
 use Illuminate\Support\Facades\Notification;
-use Alone\LaravelHuaweiPush\HuaweiNotification;
-use Alone\LaravelHuaweiPush\HuaweiMessage;
+use Cyaoz94\LaravelHuaweiPush\HuaweiNotification;
+use Cyaoz94\LaravelHuaweiPush\HuaweiMessage;
 
 $msg = (new HuaweiNotification)
     ->title('通知标题')

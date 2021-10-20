@@ -4,8 +4,8 @@
     "keywords": ["laravel", "illuminate", "notifications", "huawei", "huawei-push"],
     "authors": [
         {
-            "name": "Alone",
-            "email": "hi@anlo.ng"
+            "name": "Casper Ho",
+            "email": "casperyaoz@gmail.com"
         }
     ],
     "require": {
@@ -18,13 +18,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Alone\\LaravelHuaweiPush\\": "src/"
+            "Cyaoz94\\LaravelHuaweiPush\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Alone\\LaravelHuaweiPush\\ServiceProvider"
+                "Cyaoz94\\LaravelHuaweiPush\\ServiceProvider"
             ]
         }
     },
