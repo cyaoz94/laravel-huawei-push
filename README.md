@@ -10,7 +10,7 @@
 ```
 
 ```sh
-$ composer require "al-one/laravel-huawei-push" -vvv
+$ composer require "cyaoz94/laravel-huawei-push" -vvv
 ```
 
 
